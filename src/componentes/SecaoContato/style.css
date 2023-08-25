@@ -1,0 +1,57 @@
+.fale-conosco {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+    background-color: #05031b;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.contato-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 15px;
+}
+
+.contato-redes {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.contato-redes img{
+    width: 18px;
+}
+
+.contato-redes p{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px){
+    .fale-conosco{
+        padding: 60px 20px;
+    }
+}
+
+@media (max-width: 550px){
+    .fale-conosco{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .contato{
+        flex-direction: column;
+    }
+    .contato-container{
+        align-items: center;
+    }
+    .contato-redes{
+        width: 150px;
+    }
+}
